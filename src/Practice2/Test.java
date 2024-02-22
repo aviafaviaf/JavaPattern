@@ -7,5 +7,6 @@ public class Test {
         main.sortByLastCharAtLastName();
         main.filter();
         main.sortByBirthDate();
+        main.multipleAllAges();
     }
 }
