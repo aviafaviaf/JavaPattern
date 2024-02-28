@@ -44,5 +44,6 @@ public class Main {
     public void multipleAllAges() {
         System.out.println("Произведение всех возрастов: ");
         Stream<Human> stream = humans.stream();
+        System.out.println(stream.map(human -> human.getAge()).reduce((a, b) -> a * b).get());
     }
 }
