@@ -85,14 +85,17 @@ public class MyExecutorService implements ExecutorService {
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
+                System.out.println("1000 ms");
             });
             executor.submit(() -> {
                 try {
-                    Thread.sleep(200);
+                    Thread.sleep(300);
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
+                System.out.println("300 ms");
             });
+            System.out.println("0 ms");
             executor.shutdown();
         }
     }

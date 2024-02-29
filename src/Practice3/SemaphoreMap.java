@@ -6,7 +6,7 @@ import java.util.concurrent.Semaphore;
 public class SemaphoreMap<K, V> implements Map<K, V> {
     private final Semaphore semaphore = new Semaphore(1, true);
 
-    private volatile Map<Object, Object> map = new HashMap<Object, Object>();
+    private volatile Map<K, V> map = new HashMap<K, V>();
 
     @Override
     public int size() {
@@ -143,7 +143,14 @@ public class SemaphoreMap<K, V> implements Map<K, V> {
 
     @Override
     public Set<Entry<K, V>> entrySet() {
-        return null;
+        try{
+            semaphore.acquire();
+            return (Set<Entry<K, V>>) map.entrySet();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        } finally {
+            semaphore.release();
+        }
     }
 
     @Override
