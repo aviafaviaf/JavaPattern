@@ -1,4 +1,4 @@
-package Practice6.abstract_fabric;
+package Practice6.abstract_factory;
 
 public class Test {
     public static void main(String[] args) {

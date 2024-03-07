@@ -1,4 +1,4 @@
-package Practice6.abstract_fabric;
+package Practice6.abstract_factory;
 
 public class Product12 implements IProduct1 {
     @Override

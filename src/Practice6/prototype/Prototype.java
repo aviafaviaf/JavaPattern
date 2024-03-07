@@ -14,8 +14,6 @@ public class Prototype implements IPrototype {
 
     @Override
     public String toString() {
-        return "Prototype{" +
-                "name='" + name + '\'' +
-                '}';
+        return "Prototype " + name;
     }
 }
