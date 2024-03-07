@@ -1,4 +1,4 @@
-package practice6.builder;
+package Practice6.builder;
 
 public class Test {
     public static void main(String[] args) {

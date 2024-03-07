@@ -1,4 +1,4 @@
-package practice6.builder;
+package Practice6.builder;
 
 public class Builder implements IBuilder {
     Product product = new Product();

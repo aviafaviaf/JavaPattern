@@ -1,4 +1,4 @@
-package practice6.abst;
+package Practice6.abstr;
 
 public class Test {
     public static void main(String[] args) {

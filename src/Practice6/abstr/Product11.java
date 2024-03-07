@@ -1,4 +1,4 @@
-package practice6.abst;
+package Practice6.abstr;
 
 public class Product11 implements IProduct1 {
     @Override

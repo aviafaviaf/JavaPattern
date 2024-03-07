@@ -1,4 +1,4 @@
-package practice6.prototype;
+package Practice6.prototype;
 
 public class Prototype implements IPrototype {
     private String name;

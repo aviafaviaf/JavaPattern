@@ -1,4 +1,4 @@
-package Practice6.abstact;
+package Practice6.abstr;
 
 public class Factory2 implements IFactory {
     @Override

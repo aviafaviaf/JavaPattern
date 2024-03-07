@@ -1,4 +1,4 @@
-package practice6.factory;
+package Practice6.factory;
 
 public abstract class Creator {
     public abstract IProduct factoryMethod();

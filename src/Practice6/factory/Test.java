@@ -1,4 +1,4 @@
-package practice6.factory;
+package Practice6.factory;
 
 public class Test {
     public static void main(String[] args) {

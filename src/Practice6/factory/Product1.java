@@ -1,4 +1,4 @@
-package practice6.factory;
+package Practice6.factory;
 
 public class Product1 implements IProduct {
     @Override

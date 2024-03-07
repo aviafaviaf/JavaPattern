@@ -1,4 +1,4 @@
-package practice6.factory;
+package Practice6.factory;
 
 public class Creator1 extends Creator {
     @Override

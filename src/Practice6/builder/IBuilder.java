@@ -1,4 +1,4 @@
-package practice6.builder;
+package Practice6.builder;
 
 public interface IBuilder {
     void setName(String name);

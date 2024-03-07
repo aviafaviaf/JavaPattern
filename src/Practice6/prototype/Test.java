@@ -1,4 +1,4 @@
-package practice6.prototype;
+package Practice6.prototype;
 
 public class Test {
     public static void main(String[] args) {

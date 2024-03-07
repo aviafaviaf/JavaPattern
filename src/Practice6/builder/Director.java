@@ -1,4 +1,4 @@
-package practice6.builder;
+package Practice6.builder;
 
 public class Director {
     void constructProduct1(IBuilder builder) {
