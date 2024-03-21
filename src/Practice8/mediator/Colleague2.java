@@ -7,6 +7,6 @@ public class Colleague2 extends Colleague {
 
     @Override
     public void notify(String message) {
-        System.out.println("To Colleague 2: " + message);
+        System.out.println("to colleague 2: " + message);
     }
 }
