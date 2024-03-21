@@ -21,6 +21,6 @@ public class Iterator implements IIterator<Integer> {
 
     @Override
     public boolean hasNext() {
-        return i + 1 < list.size();
+        return i < list.size();
     }
 }
