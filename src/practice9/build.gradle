@@ -20,7 +20,7 @@ test {
 
 jar {
     manifest {
-        attributes 'Main-Class':'org.example.Main'
+        attributes 'Main-Class':'practice9.src.main.java.org.example.Main'
     }
     destinationDirectory.set(file("$rootDir/src/main/resources"))
 }
