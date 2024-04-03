@@ -1,0 +1,53 @@
+package practice9
+
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class':'org.example.Main'
+    }
+    destinationDirectory.set(file("$rootDir/src/main/resources"))
+}
+
+task removeJar(type: Delete) {
+    delete file("$rootDir/src/main/resources/${project.name}-1.0-SNAPSHOT.jar")
+}
+
+task buildImage(type: Exec) {
+    dependsOn 'jar'
+    finalizedBy 'removeJar'
+    commandLine 'docker', 'build', '-t', "${project.name}-1.0", "${rootDir}/src/main/resources/"
+}
+
+task runDocker(type: Exec) {
+    dependsOn 'buildImage'
+    finalizedBy 'removeContainer'
+    commandLine 'docker', 'run', '--name', "${project.name}-1.0", "${project.name}-1.0"
+}
+
+task removeContainer(type:Exec) {
+    finalizedBy 'removeImage'
+    commandLine 'docker', 'container', 'rm', "${project.name}-1.0"
+}
+
+task removeImage(type: Exec) {
+    commandLine 'docker', 'image', 'rm', "${project.name}-1.0"
+}
