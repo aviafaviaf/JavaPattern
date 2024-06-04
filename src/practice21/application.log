@@ -1,0 +1,273 @@
+2024-06-04T00:03:45.818+03:00  INFO 2780 --- [practice15] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04T00:03:45.838+03:00  INFO 2780 --- [practice15] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-04T00:03:45.842+03:00  INFO 2780 --- [practice15] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-04T00:03:48.466+03:00  INFO 15276 --- [practice15] [main] c.e.practice15.Practice15Application     : Starting Practice15Application using Java 22.0.1 with PID 15276 (C:\Users\a-lex\IdeaProjects\practice21\build\classes\java\main started by a-lex in C:\Users\a-lex\IdeaProjects\practice21)
+2024-06-04T00:03:48.467+03:00  INFO 15276 --- [practice15] [main] c.e.practice15.Practice15Application     : No active profile set, falling back to 1 default profile: "default"
+2024-06-04T00:03:49.069+03:00  INFO 15276 --- [practice15] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-04T00:03:49.105+03:00  INFO 15276 --- [practice15] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2024-06-04T00:03:49.587+03:00  INFO 15276 --- [practice15] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-04T00:03:49.596+03:00  INFO 15276 --- [practice15] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-04T00:03:49.596+03:00  INFO 15276 --- [practice15] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-04T00:03:49.637+03:00  INFO 15276 --- [practice15] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-04T00:03:49.638+03:00  INFO 15276 --- [practice15] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1135 ms
+2024-06-04T00:03:49.820+03:00  INFO 15276 --- [practice15] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-04T00:03:49.934+03:00  INFO 15276 --- [practice15] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f867b0c
+2024-06-04T00:03:49.935+03:00  INFO 15276 --- [practice15] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-04T00:03:49.996+03:00  INFO 15276 --- [practice15] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-04T00:03:50.029+03:00  INFO 15276 --- [practice15] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-04T00:03:50.055+03:00  INFO 15276 --- [practice15] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-04T00:03:50.265+03:00  INFO 15276 --- [practice15] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-04T00:03:50.970+03:00  INFO 15276 --- [practice15] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-04T00:03:50.972+03:00  INFO 15276 --- [practice15] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04T00:03:51.309+03:00  WARN 15276 --- [practice15] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-04T00:03:51.829+03:00  INFO 15276 --- [practice15] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-04T00:03:51.889+03:00  INFO 15276 --- [practice15] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-04T00:03:51.897+03:00  INFO 15276 --- [practice15] [main] c.e.practice15.Practice15Application     : Started Practice15Application in 3.708 seconds (process running for 4.1)
+2024-06-04T00:03:51.987+03:00  INFO 15276 --- [practice15] [RMI TCP Connection(3)-192.168.0.104] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04T00:03:51.987+03:00  INFO 15276 --- [practice15] [RMI TCP Connection(3)-192.168.0.104] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-04T00:03:51.988+03:00  INFO 15276 --- [practice15] [RMI TCP Connection(3)-192.168.0.104] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-04T00:04:00.369+03:00  INFO 15276 --- [practice15] [http-nio-8080-exec-1] com.example.practice15.aspect.Aspect     : Parameters: Bank(id=0, name=bank6, address=new_street, cards=[])
+2024-06-04T00:04:00.370+03:00  INFO 15276 --- [practice15] [http-nio-8080-exec-1] c.e.practice15.services.BankService      : Bank added: Bank(id=0, name=bank6, address=new_street, cards=[])
+2024-06-04T00:04:00.415+03:00  INFO 15276 --- [practice15] [http-nio-8080-exec-1] com.example.practice15.aspect.Aspect     : Finish!
+2024-06-04T00:04:00.416+03:00  INFO 15276 --- [practice15] [http-nio-8080-exec-1] com.example.practice15.aspect.Aspect     : void com.example.practice15.services.BankService.addBank(Bank) takes 47ms
+2024-06-04T00:04:00.428+03:00  INFO 15276 --- [practice15] [task-1] com.example.practice15.aspect.Aspect     : Parameters: vlad2004ik04@mail.ru
+2024-06-04T00:04:00.429+03:00  INFO 15276 --- [practice15] [task-1] c.e.practice15.services.EmailService     : Sending email to vlad2004ik04@mail.ru
+2024-06-04T00:04:00.959+03:00  INFO 15276 --- [practice15] [task-1] com.example.practice15.aspect.Aspect     : Finish!
+2024-06-04T00:04:00.959+03:00 ERROR 15276 --- [practice15] [task-1] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void com.example.practice15.services.EmailService.sendEmail(java.lang.String,java.lang.String,java.lang.String)
+
+org.springframework.mail.MailSendException: Failed messages: org.eclipse.angus.mail.smtp.SMTPSendFailedException: 550 not local sender over smtp
+;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPSenderFailedException: 550 not local sender over smtp
+
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:453) ~[spring-context-support-6.1.8.jar:6.1.8]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:317) ~[spring-context-support-6.1.8.jar:6.1.8]
+	at org.springframework.mail.MailSender.send(MailSender.java:42) ~[spring-context-support-6.1.8.jar:6.1.8]
+	at com.example.practice15.services.EmailService.sendEmail(EmailService.java:23) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.1.8.jar:6.1.8]
+	at com.example.practice15.aspect.Aspect.logExecutionTime(Aspect.java:33) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:113) ~[spring-aop-6.1.8.jar:6.1.8]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+2024-06-04T00:04:42.527+03:00  INFO 15276 --- [practice15] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04T00:04:42.529+03:00  INFO 15276 --- [practice15] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-04T00:04:42.532+03:00  INFO 15276 --- [practice15] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-04T00:04:44.845+03:00  INFO 8212 --- [practice15] [main] c.e.practice15.Practice15Application     : Starting Practice15Application using Java 22.0.1 with PID 8212 (C:\Users\a-lex\IdeaProjects\practice21\build\classes\java\main started by a-lex in C:\Users\a-lex\IdeaProjects\practice21)
+2024-06-04T00:04:44.847+03:00  INFO 8212 --- [practice15] [main] c.e.practice15.Practice15Application     : No active profile set, falling back to 1 default profile: "default"
+2024-06-04T00:04:45.439+03:00  INFO 8212 --- [practice15] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-04T00:04:45.477+03:00  INFO 8212 --- [practice15] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2024-06-04T00:04:45.971+03:00  INFO 8212 --- [practice15] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-04T00:04:45.981+03:00  INFO 8212 --- [practice15] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-04T00:04:45.981+03:00  INFO 8212 --- [practice15] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-04T00:04:46.022+03:00  INFO 8212 --- [practice15] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-04T00:04:46.023+03:00  INFO 8212 --- [practice15] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1145 ms
+2024-06-04T00:04:46.199+03:00  INFO 8212 --- [practice15] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-04T00:04:46.318+03:00  INFO 8212 --- [practice15] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@98637a2
+2024-06-04T00:04:46.319+03:00  INFO 8212 --- [practice15] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-04T00:04:46.381+03:00  INFO 8212 --- [practice15] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-04T00:04:46.418+03:00  INFO 8212 --- [practice15] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-04T00:04:46.444+03:00  INFO 8212 --- [practice15] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-04T00:04:46.662+03:00  INFO 8212 --- [practice15] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-04T00:04:47.361+03:00  INFO 8212 --- [practice15] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-04T00:04:47.364+03:00  INFO 8212 --- [practice15] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04T00:04:47.703+03:00  WARN 8212 --- [practice15] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-04T00:04:48.223+03:00  INFO 8212 --- [practice15] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-04T00:04:48.284+03:00  INFO 8212 --- [practice15] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-04T00:04:48.293+03:00  INFO 8212 --- [practice15] [main] c.e.practice15.Practice15Application     : Started Practice15Application in 3.708 seconds (process running for 4.088)
+2024-06-04T00:04:48.882+03:00  INFO 8212 --- [practice15] [RMI TCP Connection(3)-192.168.0.104] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04T00:04:48.882+03:00  INFO 8212 --- [practice15] [RMI TCP Connection(3)-192.168.0.104] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-04T00:04:48.884+03:00  INFO 8212 --- [practice15] [RMI TCP Connection(3)-192.168.0.104] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-06-04T00:04:50.701+03:00  INFO 8212 --- [practice15] [http-nio-8080-exec-2] com.example.practice15.aspect.Aspect     : Parameters: Bank(id=0, name=bank6, address=new_street, cards=[])
+2024-06-04T00:04:50.701+03:00  INFO 8212 --- [practice15] [http-nio-8080-exec-2] c.e.practice15.services.BankService      : Bank added: Bank(id=0, name=bank6, address=new_street, cards=[])
+2024-06-04T00:04:50.749+03:00  INFO 8212 --- [practice15] [http-nio-8080-exec-2] com.example.practice15.aspect.Aspect     : Finish!
+2024-06-04T00:04:50.750+03:00  INFO 8212 --- [practice15] [http-nio-8080-exec-2] com.example.practice15.aspect.Aspect     : void com.example.practice15.services.BankService.addBank(Bank) takes 48ms
+2024-06-04T00:04:50.763+03:00  INFO 8212 --- [practice15] [task-1] com.example.practice15.aspect.Aspect     : Parameters: vlad2004ik04@mail.ru
+2024-06-04T00:04:50.764+03:00  INFO 8212 --- [practice15] [task-1] c.e.practice15.services.EmailService     : Sending emailSimpleMailMessage: from=null; replyTo=null; to=vlad2004ik04@mail.ru; cc=; bcc=; sentDate=null; subject=bank add; text=bank add: Bank(id=0, name=bank6, address=new_street, cards=[])
+2024-06-04T00:04:51.282+03:00  INFO 8212 --- [practice15] [task-1] com.example.practice15.aspect.Aspect     : Finish!
+2024-06-04T00:04:51.283+03:00 ERROR 8212 --- [practice15] [task-1] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void com.example.practice15.services.EmailService.sendEmail(java.lang.String,java.lang.String,java.lang.String)
+
+org.springframework.mail.MailSendException: Failed messages: org.eclipse.angus.mail.smtp.SMTPSendFailedException: 550 not local sender over smtp
+;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPSenderFailedException: 550 not local sender over smtp
+
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:453) ~[spring-context-support-6.1.8.jar:6.1.8]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:317) ~[spring-context-support-6.1.8.jar:6.1.8]
+	at org.springframework.mail.MailSender.send(MailSender.java:42) ~[spring-context-support-6.1.8.jar:6.1.8]
+	at com.example.practice15.services.EmailService.sendEmail(EmailService.java:23) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.1.8.jar:6.1.8]
+	at com.example.practice15.aspect.Aspect.logExecutionTime(Aspect.java:33) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:113) ~[spring-aop-6.1.8.jar:6.1.8]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+2024-06-04T00:05:32.610+03:00  INFO 8212 --- [practice15] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04T00:05:32.613+03:00  INFO 8212 --- [practice15] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-04T00:05:32.616+03:00  INFO 8212 --- [practice15] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-04T00:05:34.864+03:00  INFO 15788 --- [practice15] [main] c.e.practice15.Practice15Application     : Starting Practice15Application using Java 22.0.1 with PID 15788 (C:\Users\a-lex\IdeaProjects\practice21\build\classes\java\main started by a-lex in C:\Users\a-lex\IdeaProjects\practice21)
+2024-06-04T00:05:34.866+03:00  INFO 15788 --- [practice15] [main] c.e.practice15.Practice15Application     : No active profile set, falling back to 1 default profile: "default"
+2024-06-04T00:05:35.460+03:00  INFO 15788 --- [practice15] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-04T00:05:35.499+03:00  INFO 15788 --- [practice15] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2024-06-04T00:05:35.977+03:00  INFO 15788 --- [practice15] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-04T00:05:35.985+03:00  INFO 15788 --- [practice15] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-04T00:05:35.986+03:00  INFO 15788 --- [practice15] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-04T00:05:36.024+03:00  INFO 15788 --- [practice15] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-04T00:05:36.025+03:00  INFO 15788 --- [practice15] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1125 ms
+2024-06-04T00:05:36.211+03:00  INFO 15788 --- [practice15] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-04T00:05:36.326+03:00  INFO 15788 --- [practice15] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f867b0c
+2024-06-04T00:05:36.327+03:00  INFO 15788 --- [practice15] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-04T00:05:36.391+03:00  INFO 15788 --- [practice15] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-04T00:05:36.436+03:00  INFO 15788 --- [practice15] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-04T00:05:36.464+03:00  INFO 15788 --- [practice15] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-04T00:05:36.676+03:00  INFO 15788 --- [practice15] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-04T00:05:37.385+03:00  INFO 15788 --- [practice15] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-04T00:05:37.387+03:00  INFO 15788 --- [practice15] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04T00:05:37.723+03:00  WARN 15788 --- [practice15] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-04T00:05:38.241+03:00  INFO 15788 --- [practice15] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-04T00:05:38.295+03:00  INFO 15788 --- [practice15] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-04T00:05:38.302+03:00  INFO 15788 --- [practice15] [main] c.e.practice15.Practice15Application     : Started Practice15Application in 3.695 seconds (process running for 4.08)
+2024-06-04T00:05:38.401+03:00  INFO 15788 --- [practice15] [RMI TCP Connection(3)-192.168.0.104] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04T00:05:38.401+03:00  INFO 15788 --- [practice15] [RMI TCP Connection(3)-192.168.0.104] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-04T00:05:38.402+03:00  INFO 15788 --- [practice15] [RMI TCP Connection(3)-192.168.0.104] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-04T00:05:40.562+03:00  INFO 15788 --- [practice15] [http-nio-8080-exec-2] com.example.practice15.aspect.Aspect     : Parameters: Bank(id=0, name=bank6, address=new_street, cards=[])
+2024-06-04T00:05:40.562+03:00  INFO 15788 --- [practice15] [http-nio-8080-exec-2] c.e.practice15.services.BankService      : Bank added: Bank(id=0, name=bank6, address=new_street, cards=[])
+2024-06-04T00:05:40.609+03:00  INFO 15788 --- [practice15] [http-nio-8080-exec-2] com.example.practice15.aspect.Aspect     : Finish!
+2024-06-04T00:05:40.610+03:00  INFO 15788 --- [practice15] [http-nio-8080-exec-2] com.example.practice15.aspect.Aspect     : void com.example.practice15.services.BankService.addBank(Bank) takes 47ms
+2024-06-04T00:05:40.623+03:00  INFO 15788 --- [practice15] [task-1] com.example.practice15.aspect.Aspect     : Parameters: vlad2004ik04@mail.ru
+2024-06-04T00:05:40.624+03:00  INFO 15788 --- [practice15] [task-1] c.e.practice15.services.EmailService     : org.springframework.mail.javamail.JavaMailSenderImpl@20a2930f
+2024-06-04T00:05:41.197+03:00  INFO 15788 --- [practice15] [task-1] com.example.practice15.aspect.Aspect     : Finish!
+2024-06-04T00:05:41.198+03:00 ERROR 15788 --- [practice15] [task-1] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void com.example.practice15.services.EmailService.sendEmail(java.lang.String,java.lang.String,java.lang.String)
+
+org.springframework.mail.MailSendException: Failed messages: org.eclipse.angus.mail.smtp.SMTPSendFailedException: 550 not local sender over smtp
+;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPSenderFailedException: 550 not local sender over smtp
+
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:453) ~[spring-context-support-6.1.8.jar:6.1.8]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:317) ~[spring-context-support-6.1.8.jar:6.1.8]
+	at org.springframework.mail.MailSender.send(MailSender.java:42) ~[spring-context-support-6.1.8.jar:6.1.8]
+	at com.example.practice15.services.EmailService.sendEmail(EmailService.java:23) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.1.8.jar:6.1.8]
+	at com.example.practice15.aspect.Aspect.logExecutionTime(Aspect.java:33) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.8.jar:6.1.8]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:113) ~[spring-aop-6.1.8.jar:6.1.8]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+2024-06-04T00:07:35.722+03:00  INFO 15788 --- [practice15] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04T00:07:35.724+03:00  INFO 15788 --- [practice15] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-04T00:07:35.727+03:00  INFO 15788 --- [practice15] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-04T00:07:37.881+03:00  INFO 6808 --- [practice15] [main] c.e.practice15.Practice15Application     : Starting Practice15Application using Java 22.0.1 with PID 6808 (C:\Users\a-lex\IdeaProjects\practice21\build\classes\java\main started by a-lex in C:\Users\a-lex\IdeaProjects\practice21)
+2024-06-04T00:07:37.883+03:00  INFO 6808 --- [practice15] [main] c.e.practice15.Practice15Application     : No active profile set, falling back to 1 default profile: "default"
+2024-06-04T00:07:38.477+03:00  INFO 6808 --- [practice15] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-04T00:07:38.514+03:00  INFO 6808 --- [practice15] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2024-06-04T00:07:38.983+03:00  INFO 6808 --- [practice15] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-04T00:07:38.991+03:00  INFO 6808 --- [practice15] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-04T00:07:38.991+03:00  INFO 6808 --- [practice15] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-04T00:07:39.028+03:00  INFO 6808 --- [practice15] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-04T00:07:39.028+03:00  INFO 6808 --- [practice15] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1113 ms
+2024-06-04T00:07:39.206+03:00  INFO 6808 --- [practice15] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-04T00:07:39.330+03:00  INFO 6808 --- [practice15] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4afd65fd
+2024-06-04T00:07:39.331+03:00  INFO 6808 --- [practice15] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-04T00:07:39.403+03:00  INFO 6808 --- [practice15] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-04T00:07:39.446+03:00  INFO 6808 --- [practice15] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-04T00:07:39.470+03:00  INFO 6808 --- [practice15] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-04T00:07:39.687+03:00  INFO 6808 --- [practice15] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-04T00:07:40.380+03:00  INFO 6808 --- [practice15] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-04T00:07:40.382+03:00  INFO 6808 --- [practice15] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04T00:07:40.736+03:00  WARN 6808 --- [practice15] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-04T00:07:41.298+03:00  INFO 6808 --- [practice15] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-04T00:07:41.355+03:00  INFO 6808 --- [practice15] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-04T00:07:41.364+03:00  INFO 6808 --- [practice15] [main] c.e.practice15.Practice15Application     : Started Practice15Application in 3.749 seconds (process running for 4.135)
+2024-06-04T00:07:41.897+03:00  INFO 6808 --- [practice15] [RMI TCP Connection(3)-192.168.0.104] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04T00:07:41.897+03:00  INFO 6808 --- [practice15] [RMI TCP Connection(3)-192.168.0.104] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-04T00:07:41.898+03:00  INFO 6808 --- [practice15] [RMI TCP Connection(3)-192.168.0.104] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-04T00:07:44.939+03:00  INFO 6808 --- [practice15] [http-nio-8080-exec-2] com.example.practice15.aspect.Aspect     : Parameters: Bank(id=0, name=bank6, address=new_street, cards=[])
+2024-06-04T00:07:44.940+03:00  INFO 6808 --- [practice15] [http-nio-8080-exec-2] c.e.practice15.services.BankService      : Bank added: Bank(id=0, name=bank6, address=new_street, cards=[])
+2024-06-04T00:07:44.988+03:00  INFO 6808 --- [practice15] [http-nio-8080-exec-2] com.example.practice15.aspect.Aspect     : Finish!
+2024-06-04T00:07:44.989+03:00  INFO 6808 --- [practice15] [http-nio-8080-exec-2] com.example.practice15.aspect.Aspect     : void com.example.practice15.services.BankService.addBank(Bank) takes 50ms
+2024-06-04T00:07:45.003+03:00  INFO 6808 --- [practice15] [task-1] com.example.practice15.aspect.Aspect     : Parameters: vlad2004ik04@mail.ru
+2024-06-04T00:07:46.282+03:00  INFO 6808 --- [practice15] [task-1] com.example.practice15.aspect.Aspect     : Finish!
+2024-06-04T00:07:46.282+03:00  INFO 6808 --- [practice15] [task-1] com.example.practice15.aspect.Aspect     : void com.example.practice15.services.EmailService.sendEmail(String,String,String) takes 1279ms
+2024-06-04T00:08:08.405+03:00  INFO 6808 --- [practice15] [http-nio-8080-exec-9] com.example.practice15.aspect.Aspect     : Parameters: Bank(id=0, name=bank6, address=new_street, cards=[])
+2024-06-04T00:08:08.405+03:00  INFO 6808 --- [practice15] [http-nio-8080-exec-9] c.e.practice15.services.BankService      : Bank added: Bank(id=0, name=bank6, address=new_street, cards=[])
+2024-06-04T00:08:08.407+03:00  INFO 6808 --- [practice15] [http-nio-8080-exec-9] com.example.practice15.aspect.Aspect     : Finish!
+2024-06-04T00:08:08.407+03:00  INFO 6808 --- [practice15] [http-nio-8080-exec-9] com.example.practice15.aspect.Aspect     : void com.example.practice15.services.BankService.addBank(Bank) takes 2ms
+2024-06-04T00:08:08.408+03:00  INFO 6808 --- [practice15] [task-2] com.example.practice15.aspect.Aspect     : Parameters: vlad2004ik04@mail.ru
+2024-06-04T00:08:09.280+03:00  INFO 6808 --- [practice15] [task-2] com.example.practice15.aspect.Aspect     : Finish!
+2024-06-04T00:08:09.280+03:00  INFO 6808 --- [practice15] [task-2] com.example.practice15.aspect.Aspect     : void com.example.practice15.services.EmailService.sendEmail(String,String,String) takes 872ms
+2024-06-04T00:08:36.392+03:00  INFO 6808 --- [practice15] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04T00:08:36.394+03:00  INFO 6808 --- [practice15] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-04T00:08:36.397+03:00  INFO 6808 --- [practice15] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

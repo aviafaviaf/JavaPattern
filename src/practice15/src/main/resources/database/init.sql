@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS cards
+(
+    id SERIAL NOT NULL PRIMARY KEY ,
+    cardname VARCHAR,
+    code VARCHAR
+);
+
+CREATE TABLE IF NOT EXISTS banks
+(
+    id SERIAL NOT NULL PRIMARY KEY ,
+    name VARCHAR,
+    address VARCHAR
+)

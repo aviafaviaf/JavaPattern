@@ -1,0 +1,66 @@
+2024-06-03T22:27:13.116+03:00  INFO 4304 --- [practice15] [main] c.e.practice15.Practice15Application     : Starting Practice15Application using Java 22.0.1 with PID 4304 (C:\Users\a-lex\IdeaProjects\practice18\build\classes\java\main started by a-lex in C:\Users\a-lex\IdeaProjects\practice18)
+2024-06-03T22:27:13.118+03:00  INFO 4304 --- [practice15] [main] c.e.practice15.Practice15Application     : No active profile set, falling back to 1 default profile: "default"
+2024-06-03T22:27:13.726+03:00  INFO 4304 --- [practice15] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03T22:27:13.773+03:00  INFO 4304 --- [practice15] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2024-06-03T22:27:14.253+03:00  INFO 4304 --- [practice15] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-03T22:27:14.262+03:00  INFO 4304 --- [practice15] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-03T22:27:14.262+03:00  INFO 4304 --- [practice15] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-03T22:27:14.300+03:00  INFO 4304 --- [practice15] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-03T22:27:14.300+03:00  INFO 4304 --- [practice15] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1150 ms
+2024-06-03T22:27:14.480+03:00  INFO 4304 --- [practice15] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-03T22:27:14.599+03:00  INFO 4304 --- [practice15] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@12fccff0
+2024-06-03T22:27:14.600+03:00  INFO 4304 --- [practice15] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-03T22:27:14.663+03:00  INFO 4304 --- [practice15] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03T22:27:14.705+03:00  INFO 4304 --- [practice15] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-03T22:27:14.731+03:00  INFO 4304 --- [practice15] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-03T22:27:14.956+03:00  INFO 4304 --- [practice15] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-03T22:27:15.693+03:00  INFO 4304 --- [practice15] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-03T22:27:15.695+03:00  INFO 4304 --- [practice15] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03T22:27:16.015+03:00  WARN 4304 --- [practice15] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03T22:27:16.539+03:00  INFO 4304 --- [practice15] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-03T22:27:16.595+03:00  INFO 4304 --- [practice15] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-03T22:27:16.604+03:00  INFO 4304 --- [practice15] [main] c.e.practice15.Practice15Application     : Started Practice15Application in 3.766 seconds (process running for 4.186)
+2024-06-03T22:27:17.139+03:00  INFO 4304 --- [practice15] [RMI TCP Connection(1)-192.168.0.104] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03T22:27:17.139+03:00  INFO 4304 --- [practice15] [RMI TCP Connection(1)-192.168.0.104] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-03T22:27:17.140+03:00  INFO 4304 --- [practice15] [RMI TCP Connection(1)-192.168.0.104] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-03T22:27:26.541+03:00  INFO 4304 --- [practice15] [http-nio-8080-exec-2] c.e.practice15.services.BankService      : Get all banks
+2024-06-03T22:27:29.375+03:00  INFO 4304 --- [practice15] [http-nio-8080-exec-3] c.e.practice15.services.BankService      : Get all banks
+2024-06-03T22:27:48.607+03:00  INFO 4304 --- [practice15] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03T22:27:48.608+03:00  INFO 4304 --- [practice15] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-03T22:27:48.611+03:00  INFO 4304 --- [practice15] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-03T22:40:01.058+03:00  INFO 17360 --- [practice15] [main] c.e.practice15.Practice15Application     : Starting Practice15Application using Java 22.0.1 with PID 17360 (C:\Users\a-lex\IdeaProjects\practice20\build\classes\java\main started by a-lex in C:\Users\a-lex\IdeaProjects\practice20)
+2024-06-03T22:40:01.061+03:00  INFO 17360 --- [practice15] [main] c.e.practice15.Practice15Application     : No active profile set, falling back to 1 default profile: "default"
+2024-06-03T22:40:01.776+03:00  INFO 17360 --- [practice15] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03T22:40:01.812+03:00  INFO 17360 --- [practice15] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces.
+2024-06-03T22:40:02.299+03:00  INFO 17360 --- [practice15] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-03T22:40:02.308+03:00  INFO 17360 --- [practice15] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-03T22:40:02.308+03:00  INFO 17360 --- [practice15] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-03T22:40:02.343+03:00  INFO 17360 --- [practice15] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-03T22:40:02.343+03:00  INFO 17360 --- [practice15] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1222 ms
+2024-06-03T22:40:02.510+03:00  INFO 17360 --- [practice15] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-03T22:40:02.628+03:00  INFO 17360 --- [practice15] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@76828577
+2024-06-03T22:40:02.629+03:00  INFO 17360 --- [practice15] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-03T22:40:02.691+03:00  INFO 17360 --- [practice15] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03T22:40:02.727+03:00  INFO 17360 --- [practice15] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-03T22:40:02.753+03:00  INFO 17360 --- [practice15] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-03T22:40:02.971+03:00  INFO 17360 --- [practice15] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-03T22:40:03.684+03:00  INFO 17360 --- [practice15] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-03T22:40:03.686+03:00  INFO 17360 --- [practice15] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03T22:40:03.991+03:00  WARN 17360 --- [practice15] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03T22:40:04.489+03:00  INFO 17360 --- [practice15] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-03T22:40:04.541+03:00  INFO 17360 --- [practice15] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-03T22:40:04.549+03:00  INFO 17360 --- [practice15] [main] c.e.practice15.Practice15Application     : Started Practice15Application in 3.92 seconds (process running for 4.386)
+2024-06-03T22:40:04.673+03:00  INFO 17360 --- [practice15] [RMI TCP Connection(2)-192.168.0.104] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03T22:40:04.673+03:00  INFO 17360 --- [practice15] [RMI TCP Connection(2)-192.168.0.104] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-03T22:40:04.674+03:00  INFO 17360 --- [practice15] [RMI TCP Connection(2)-192.168.0.104] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-03T22:40:09.630+03:00  INFO 17360 --- [practice15] [http-nio-8080-exec-1] com.example.practice15.aspect.Aspect     : Parameters: {}
+2024-06-03T22:40:09.630+03:00  INFO 17360 --- [practice15] [http-nio-8080-exec-1] c.e.practice15.services.BankService      : Get all banks
+2024-06-03T22:40:09.718+03:00  INFO 17360 --- [practice15] [http-nio-8080-exec-1] com.example.practice15.aspect.Aspect     : Finish!
+2024-06-03T22:40:09.719+03:00  INFO 17360 --- [practice15] [http-nio-8080-exec-1] com.example.practice15.aspect.Aspect     : List com.example.practice15.services.BankService.getAllBanks() takes 88ms
+2024-06-03T22:40:55.403+03:00  INFO 17360 --- [practice15] [http-nio-8080-exec-3] com.example.practice15.aspect.Aspect     : Parameters: Bank(id=0, name=bank4, address=new_street, cards=[])
+2024-06-03T22:40:55.403+03:00  INFO 17360 --- [practice15] [http-nio-8080-exec-3] c.e.practice15.services.BankService      : Bank added: Bank(id=0, name=bank4, address=new_street, cards=[])
+2024-06-03T22:40:55.557+03:00  INFO 17360 --- [practice15] [http-nio-8080-exec-3] com.example.practice15.aspect.Aspect     : Finish!
+2024-06-03T22:40:55.557+03:00  INFO 17360 --- [practice15] [http-nio-8080-exec-3] com.example.practice15.aspect.Aspect     : void com.example.practice15.services.BankService.addBank(Bank) takes 154ms
+2024-06-03T22:42:03.832+03:00  INFO 17360 --- [practice15] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03T22:42:03.834+03:00  INFO 17360 --- [practice15] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-03T22:42:03.837+03:00  INFO 17360 --- [practice15] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
